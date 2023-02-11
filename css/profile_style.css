@@ -1,0 +1,47 @@
+img{
+    margin-top: -40px;
+    display: inline;
+}
+
+    
+
+
+ul{
+    position: absolute;
+    text-align: right;
+    display: inline;
+    margin-top: 40px;
+    right: 10%;
+
+  
+    
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+
+    margin-top:-4px;
+}
+
+.content{
+    text-align: center;
+}
+
+table td{
+    padding-top: 20px;
+    
+  
+}
+table{
+    margin: auto;
+}

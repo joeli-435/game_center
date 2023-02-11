@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8">
+		<title>Login</title>
+        <link href="css/login_style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="main">
+			<h1 id="heading">Login</h1>
+			<hr>
+			<div class="login">
+				<form action="authenticate.php" method="post">
+		
+					<label for="username">
+						Enter your username:
+						<i class="fas fa-user"></i>
+					</label>
+					<input type="text" name="username" placeholder="Username" id="username" required>
+					<label for="password">
+						Enter your password:
+						<i class="fas fa-lock"></i>
+					</label>
+					<input type="password" name="password" placeholder="Password" id="password" required>
+					<hr>
+			
+					<input type="submit" value="Login">
+				
+					<a href="register.html">Click to register</a>
+
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
